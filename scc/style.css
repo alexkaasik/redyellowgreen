@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(207, 132, 33);
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    height: 600px;
+    width: 600px;
+    background-color: darkslategrey;
+    /*border-radius: 50%;*/
+    margin: 0 auto;
+    border: 5px solid black;
+    font-size: 0;
+}
+
+.mainDiv > div {
+    border: 5px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.red{   
+    background-color:red;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.yellow{
+    background-color:yellow;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
+
+.green{ 
+    background-color:green;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
